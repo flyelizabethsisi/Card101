@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".fragment.OnboardingFragment">
+
+    <TableRow android:layout_weight="1">
+
+        <Button
+            android:id="@+id/tarot_image_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/indigo"
+            android:fontFamily="monospace"
+            android:text="Tarot Image"
+            android:textColor="#FFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/tarot_information"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="monospace"
+            android:text="Tarot 101"
+            android:textColor="#FFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </TableRow>
+
+</TableLayout>
